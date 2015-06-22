@@ -449,10 +449,14 @@ div{
 .top-navigation {
   background-color: fff;
 }
-.top-navigation > .content {
+.content{
+  padding: 0px 15px;
+  box-sizing: border-box;
   width: 970px;
-  height: 70px;
   margin: 0 auto;
+}
+.top-navigation > .content {
+  height: 70px;
 }
 .top-navigation .links {
   float: right;
@@ -475,4 +479,55 @@ div{
 .top-navigation .links li:hover {
   cursor: pointer;
   color: #333333;
+}
+
+.introduction {
+  background-image: url('../Images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction h1, .introduction h3{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.introduction h1 {
+  margin-top: 280px;
+  font-size: 50px;
+}
+
+.introduction h3 {
+  margin-top: 18px;
+  font-size: 23px;
+}
+
+/* Button */
+
+button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  width: 155px;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #cf3d0e;
+  border-color: #cf3d0e;
+}
+
+.introduction .big-button {
+  margin-top: 23px;
+  text-align: center;
 }
