@@ -448,6 +448,9 @@ div{
 /* Navigation Section */
 .top-navigation {
   background-color: fff;
+  position: fixed;
+  width: 100%;
+  z-index: 99999
 }
 .content{
   padding: 0px 15px;
@@ -530,4 +533,43 @@ button:hover {
 .introduction .big-button {
   margin-top: 23px;
   text-align: center;
+}
+
+/* Icons */
+
+.cases {
+  background-color: #fff;
+}
+
+.cases .content {
+  text-align: center;
+  color: #1d1e21;
+  margin-top: 120px;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+  display: inline-block;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+}
+
+.content .devices {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.cases h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.cases h3 {
+  font-size: 23px;
+  font-weight: 400;
 }
