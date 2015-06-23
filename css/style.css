@@ -434,20 +434,20 @@ th {
 }
 
 body {
-  background-color: LightGray;
+  /* background-color: LightGray; */
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
   letter-spacing: 0.03em;
 }
 div{
-  border: 1px solid Chocolate;
+  /* border: 1px solid Chocolate; */
 }
 
 
 /* Navigation Section */
 .top-navigation {
-  background-color: fff;
+  background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 99999
@@ -539,6 +539,7 @@ button:hover {
 
 .cases {
   background-color: #fff;
+  padding-bottom: 200px;
 }
 
 .cases .content {
@@ -551,7 +552,7 @@ button:hover {
   width: 33.3333333%;
   display: inline-block;
   /* styles to assist with debugging */
-  border: 1px solid black;
+  border: 0px solid black;
   box-sizing: border-box;
   height: 4em;
 }
@@ -572,4 +573,48 @@ button:hover {
 .cases h3 {
   font-size: 23px;
   font-weight: 400;
+}
+
+/* Footer */
+
+.social {
+  background-color: #fff;
+  text-align: center;
+  overflow: auto;
+  padding-bottom: 200px;
+}
+
+.social .icons > li {
+    display: inline-block;
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .Twitter {
+    color: #4099ff;
+}
+.social .Facebook {
+    color: #3b5998;
+}
+.social .Instagram {
+    color: #3f729b;
+}
+.social .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: #838994;
 }
